@@ -8,6 +8,8 @@ export default {
   debug : true,
   devtool : 'source-map',
   noInfo : false,
+  sentryDns : 'https://ef6873056df2411b8551ca2e4ee72108:33cca985b2e0477cb8b02a145a087ba9@sentry' +
+    '.io/114112',
   entry : {
     vendor: path.resolve(__dirname, 'src/vendor'),
     main: path.resolve(__dirname, 'src/index')
